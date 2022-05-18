@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../game/external/ImGUI/imconfig.h
+
+../game/external/ImGUI/imgui.h
+imconfig.h
+../game/external/ImGUI/imconfig.h
+float.h
+-
+stdarg.h
+-
+stddef.h
+-
+string.h
+-
+assert.h
+-
+stdint.h
+-
+imgui_user.h
+../game/external/ImGUI/imgui_user.h
+
+/Volumes/Work/lmspuzzle/game/external/ImGUI/backends/imgui_impl_metal.h
+imgui.h
+/Volumes/Work/lmspuzzle/game/external/ImGUI/backends/imgui.h
+
+/Volumes/Work/lmspuzzle/game/external/ImGUI/backends/imgui_impl_metal.mm
+imgui.h
+/Volumes/Work/lmspuzzle/game/external/ImGUI/backends/imgui.h
+imgui_impl_metal.h
+/Volumes/Work/lmspuzzle/game/external/ImGUI/backends/imgui_impl_metal.h
+Metal/Metal.h
+-
+simd/simd.h
+-
+

@@ -1,0 +1,1052 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MiniKit"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\game\;CMake Files\game\external\;CMake Files\game\external\ImGUI\;CMake Files\game\external\SDL2\;CMake Files\game\external\SDL2\cmake\;CMake Files\game\external\SDL2\include\;CMake Files\game\external\json\;CMake Files\game\external\json\cmake\;CMake Files\game\src\;CMake Files\minikit\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Volumes/Work/lmspuzzle/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Volumes/Work/lmspuzzle/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Volumes/Work/lmspuzzle/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Volumes/Work/lmspuzzle/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Volumes/Work/lmspuzzle/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Volumes/Work/lmspuzzle/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Volumes/Work/lmspuzzle/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/SDL2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/SDL2/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/SDL2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/SDL2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/SDL2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SDL2-static">
+				<Option output="/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/SDL2/libSDL2d.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/SDL2"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSING_GENERATED_CONFIG_H"/>
+					<Add directory="/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/SDL2/include"/>
+					<Add directory="/Volumes/Work/lmspuzzle/game/external/SDL2/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/SDL2/Makefile&quot;  VERBOSE=1 SDL2-static"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/SDL2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/SDL2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/SDL2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SDL2-static/fast">
+				<Option output="/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/SDL2/libSDL2d.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/SDL2"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSING_GENERATED_CONFIG_H"/>
+					<Add directory="/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/SDL2/include"/>
+					<Add directory="/Volumes/Work/lmspuzzle/game/external/SDL2/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/SDL2/Makefile&quot;  VERBOSE=1 SDL2-static/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/SDL2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/SDL2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/SDL2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SDL2main">
+				<Option output="/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/SDL2/libSDL2maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/SDL2"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSING_GENERATED_CONFIG_H"/>
+					<Add directory="/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/SDL2/include"/>
+					<Add directory="/Volumes/Work/lmspuzzle/game/external/SDL2/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/SDL2/Makefile&quot;  VERBOSE=1 SDL2main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/SDL2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/SDL2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/SDL2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SDL2main/fast">
+				<Option output="/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/SDL2/libSDL2maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/SDL2"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSING_GENERATED_CONFIG_H"/>
+					<Add directory="/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/SDL2/include"/>
+					<Add directory="/Volumes/Work/lmspuzzle/game/external/SDL2/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/SDL2/Makefile&quot;  VERBOSE=1 SDL2main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/SDL2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/SDL2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/SDL2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ImGui">
+				<Option output="/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/ImGUI/libImGui.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/ImGUI"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Work/lmspuzzle/game/external/ImGUI/."/>
+					<Add directory="/Volumes/Work/lmspuzzle/game/external/SDL2/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/ImGUI/Makefile&quot;  VERBOSE=1 ImGui"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/ImGUI/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/ImGUI/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/ImGUI/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ImGui/fast">
+				<Option output="/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/ImGUI/libImGui.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/ImGUI"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Work/lmspuzzle/game/external/ImGUI/."/>
+					<Add directory="/Volumes/Work/lmspuzzle/game/external/SDL2/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/ImGUI/Makefile&quot;  VERBOSE=1 ImGui/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/ImGUI/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/ImGUI/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/ImGUI/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MiniKit.Game">
+				<Option output="/Volumes/Work/lmspuzzle/cmake-build-debug/game/src/MiniKit.Game" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Work/lmspuzzle/cmake-build-debug/game/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add option="-DJSON_DIAGNOSTICS=0"/>
+					<Add directory="/Volumes/Work/lmspuzzle/minikit/include"/>
+					<Add directory="/Volumes/Work/lmspuzzle/game/external/SDL2/include"/>
+					<Add directory="/Volumes/Work/lmspuzzle/game/external/ImGUI/."/>
+					<Add directory="/Volumes/Work/lmspuzzle/game/external/json/single_include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/src/Makefile&quot;  VERBOSE=1 MiniKit.Game"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MiniKit.Game/fast">
+				<Option output="/Volumes/Work/lmspuzzle/cmake-build-debug/game/src/MiniKit.Game" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Work/lmspuzzle/cmake-build-debug/game/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add option="-DJSON_DIAGNOSTICS=0"/>
+					<Add directory="/Volumes/Work/lmspuzzle/minikit/include"/>
+					<Add directory="/Volumes/Work/lmspuzzle/game/external/SDL2/include"/>
+					<Add directory="/Volumes/Work/lmspuzzle/game/external/ImGUI/."/>
+					<Add directory="/Volumes/Work/lmspuzzle/game/external/json/single_include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/src/Makefile&quot;  VERBOSE=1 MiniKit.Game/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MiniKit.Framework">
+				<Option output="/Volumes/Work/lmspuzzle/cmake-build-debug/minikit/libMiniKit.Framework.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Work/lmspuzzle/cmake-build-debug/minikit"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Work/lmspuzzle/minikit/include"/>
+					<Add directory="/Volumes/Work/lmspuzzle/minikit/src"/>
+					<Add directory="/Volumes/Work/lmspuzzle/game/external/SDL2/include"/>
+					<Add directory="/Volumes/Work/lmspuzzle/game/external/ImGUI/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/minikit/Makefile&quot;  VERBOSE=1 MiniKit.Framework"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/minikit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/minikit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/minikit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MiniKit.Framework/fast">
+				<Option output="/Volumes/Work/lmspuzzle/cmake-build-debug/minikit/libMiniKit.Framework.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Work/lmspuzzle/cmake-build-debug/minikit"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Work/lmspuzzle/minikit/include"/>
+					<Add directory="/Volumes/Work/lmspuzzle/minikit/src"/>
+					<Add directory="/Volumes/Work/lmspuzzle/game/external/SDL2/include"/>
+					<Add directory="/Volumes/Work/lmspuzzle/game/external/ImGUI/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/minikit/Makefile&quot;  VERBOSE=1 MiniKit.Framework/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/minikit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/minikit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/minikit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Volumes/Work/lmspuzzle/cmake-build-debug/minikit/CMakeFiles/MiniKit.Framework.dir/cmake_pch.hxx">
+			<Option target="MiniKit.Framework"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/cmake-build-debug/minikit/CMakeFiles/MiniKit.Framework.dir/cmake_pch.hxx.cxx">
+			<Option target="MiniKit.Framework"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/cmake-build-debug/minikit/CMakeFiles/MiniKit.Framework.dir/cmake_pch.objcxx.hxx">
+			<Option target="MiniKit.Framework"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/cmake-build-debug/minikit/CMakeFiles/MiniKit.Framework.dir/cmake_pch.objcxx.hxx.mm">
+			<Option target="MiniKit.Framework"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/ImGUI/backends/imgui_impl_metal.h">
+			<Option target="ImGui"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/ImGUI/backends/imgui_impl_metal.mm">
+			<Option target="ImGui"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/ImGUI/backends/imgui_impl_sdl.cpp">
+			<Option target="ImGui"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/ImGUI/backends/imgui_impl_sdl.h">
+			<Option target="ImGui"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/ImGUI/imgui.cpp">
+			<Option target="ImGui"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/ImGUI/imgui.h">
+			<Option target="ImGui"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/ImGUI/imgui_demo.cpp">
+			<Option target="ImGui"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/ImGUI/imgui_draw.cpp">
+			<Option target="ImGui"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/ImGUI/imgui_widgets.cpp">
+			<Option target="ImGui"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/SDL.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/SDL_assert.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/SDL_dataqueue.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/SDL_dataqueue.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/SDL_error.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/SDL_hints.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/SDL_log.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/atomic/SDL_atomic.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/atomic/SDL_spinlock.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/audio/SDL_audio.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/audio/SDL_audiocvt.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/audio/SDL_audiodev.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/audio/SDL_audiotypecvt.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/audio/SDL_mixer.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/audio/SDL_wave.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/audio/SDL_wave.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/audio/coreaudio/SDL_coreaudio.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/audio/coreaudio/SDL_coreaudio.m">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/audio/disk/SDL_diskaudio.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/audio/disk/SDL_diskaudio.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/audio/dummy/SDL_dummyaudio.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/audio/dummy/SDL_dummyaudio.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/cpuinfo/SDL_cpuinfo.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/dynapi/SDL_dynapi.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/dynapi/SDL_dynapi.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/events/SDL_clipboardevents.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/events/SDL_displayevents.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/events/SDL_dropevents.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/events/SDL_events.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/events/SDL_gesture.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/events/SDL_keyboard.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/events/SDL_mouse.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/events/SDL_quit.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/events/SDL_touch.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/events/SDL_windowevents.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/file/SDL_rwops.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/file/cocoa/SDL_rwopsbundlesupport.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/file/cocoa/SDL_rwopsbundlesupport.m">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/filesystem/cocoa/SDL_sysfilesystem.m">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/haptic/SDL_haptic.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/haptic/darwin/SDL_syshaptic.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/joystick/SDL_gamecontroller.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/joystick/SDL_joystick.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/joystick/darwin/SDL_sysjoystick.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/libm/e_atan2.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/libm/e_exp.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/libm/e_fmod.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/libm/e_log.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/libm/e_log10.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/libm/e_pow.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/libm/e_rem_pio2.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/libm/e_sqrt.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/libm/k_cos.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/libm/k_rem_pio2.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/libm/k_sin.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/libm/k_tan.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/libm/s_atan.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/libm/s_copysign.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/libm/s_cos.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/libm/s_fabs.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/libm/s_floor.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/libm/s_scalbn.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/libm/s_sin.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/libm/s_tan.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/loadso/dlopen/SDL_sysloadso.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/main/dummy/SDL_dummy_main.c">
+			<Option target="SDL2main"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/power/SDL_power.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/power/macosx/SDL_syspower.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/render/SDL_d3dmath.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/render/SDL_d3dmath.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/render/SDL_render.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/render/SDL_yuv_sw.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/render/direct3d/SDL_render_d3d.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/render/direct3d/SDL_shaders_d3d.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/render/direct3d/SDL_shaders_d3d.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/render/direct3d11/SDL_render_d3d11.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/render/direct3d11/SDL_shaders_d3d11.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/render/direct3d11/SDL_shaders_d3d11.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/render/opengl/SDL_render_gl.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/render/opengl/SDL_shaders_gl.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/render/opengl/SDL_shaders_gl.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/render/opengles/SDL_render_gles.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/render/opengles2/SDL_render_gles2.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/render/opengles2/SDL_shaders_gles2.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/render/opengles2/SDL_shaders_gles2.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/render/psp/SDL_render_psp.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/render/software/SDL_blendfillrect.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/render/software/SDL_blendfillrect.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/render/software/SDL_blendline.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/render/software/SDL_blendline.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/render/software/SDL_blendpoint.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/render/software/SDL_blendpoint.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/render/software/SDL_drawline.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/render/software/SDL_drawline.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/render/software/SDL_drawpoint.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/render/software/SDL_drawpoint.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/render/software/SDL_render_sw.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/render/software/SDL_rotate.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/render/software/SDL_rotate.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/sensor/SDL_sensor.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/sensor/dummy/SDL_dummysensor.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/sensor/dummy/SDL_dummysensor.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/stdlib/SDL_getenv.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/stdlib/SDL_iconv.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/stdlib/SDL_malloc.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/stdlib/SDL_qsort.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/stdlib/SDL_stdlib.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/stdlib/SDL_string.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/stdlib/SDL_strtokr.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/thread/SDL_thread.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/thread/pthread/SDL_syscond.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/thread/pthread/SDL_sysmutex.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/thread/pthread/SDL_syssem.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/thread/pthread/SDL_systhread.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/thread/pthread/SDL_systls.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/timer/SDL_timer.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/timer/unix/SDL_systimer.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/SDL_RLEaccel.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/SDL_blit.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/SDL_blit.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/SDL_blit_0.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/SDL_blit_1.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/SDL_blit_A.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/SDL_blit_N.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/SDL_blit_auto.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/SDL_blit_auto.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/SDL_blit_copy.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/SDL_blit_copy.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/SDL_blit_slow.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/SDL_blit_slow.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/SDL_bmp.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/SDL_clipboard.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/SDL_egl.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/SDL_fillrect.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/SDL_pixels.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/SDL_rect.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/SDL_shape.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/SDL_stretch.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/SDL_surface.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/SDL_video.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/SDL_vulkan_utils.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/SDL_yuv.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/cocoa/SDL_cocoaclipboard.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/cocoa/SDL_cocoaclipboard.m">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/cocoa/SDL_cocoaevents.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/cocoa/SDL_cocoaevents.m">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/cocoa/SDL_cocoakeyboard.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/cocoa/SDL_cocoakeyboard.m">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/cocoa/SDL_cocoamessagebox.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/cocoa/SDL_cocoamessagebox.m">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/cocoa/SDL_cocoametalview.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/cocoa/SDL_cocoametalview.m">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/cocoa/SDL_cocoamodes.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/cocoa/SDL_cocoamodes.m">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/cocoa/SDL_cocoamouse.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/cocoa/SDL_cocoamouse.m">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/cocoa/SDL_cocoamousetap.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/cocoa/SDL_cocoamousetap.m">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/cocoa/SDL_cocoaopengl.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/cocoa/SDL_cocoaopengl.m">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/cocoa/SDL_cocoaopengles.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/cocoa/SDL_cocoaopengles.m">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/cocoa/SDL_cocoashape.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/cocoa/SDL_cocoashape.m">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/cocoa/SDL_cocoavideo.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/cocoa/SDL_cocoavideo.m">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/cocoa/SDL_cocoavulkan.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/cocoa/SDL_cocoavulkan.m">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/cocoa/SDL_cocoawindow.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/cocoa/SDL_cocoawindow.m">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/dummy/SDL_nullevents.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/dummy/SDL_nullframebuffer.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/dummy/SDL_nullvideo.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/dummy/SDL_nullvideo.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/yuv2rgb/yuv_rgb.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/src/video/yuv2rgb/yuv_rgb.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/src/Tetris.cpp">
+			<Option target="MiniKit.Game"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/minikit/include/MiniKit/Engine/Context.hpp">
+			<Option target="MiniKit.Framework"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/minikit/include/MiniKit/Engine/ContextSubObject.hpp">
+			<Option target="MiniKit.Framework"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/minikit/include/MiniKit/Foundation/Error.hpp">
+			<Option target="MiniKit.Framework"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/minikit/include/MiniKit/Foundation/Noncopyable.hpp">
+			<Option target="MiniKit.Framework"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/minikit/include/MiniKit/Foundation/Object.hpp">
+			<Option target="MiniKit.Framework"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/minikit/include/MiniKit/Foundation/Predef.hpp">
+			<Option target="MiniKit.Framework"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/minikit/include/MiniKit/Graphics/CommandBuffer.hpp">
+			<Option target="MiniKit.Framework"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/minikit/include/MiniKit/Graphics/Device.hpp">
+			<Option target="MiniKit.Framework"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/minikit/include/MiniKit/Graphics/DeviceSubObject.hpp">
+			<Option target="MiniKit.Framework"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/minikit/include/MiniKit/Graphics/Image.hpp">
+			<Option target="MiniKit.Framework"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/minikit/include/MiniKit/Graphics/Numerics.hpp">
+			<Option target="MiniKit.Framework"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/minikit/include/MiniKit/MiniKit.hpp">
+			<Option target="MiniKit.Framework"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/minikit/include/MiniKit/Platform/Keyboard.hpp">
+			<Option target="MiniKit.Framework"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/minikit/include/MiniKit/Platform/Mouse.hpp">
+			<Option target="MiniKit.Framework"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/minikit/include/MiniKit/Platform/Responder.hpp">
+			<Option target="MiniKit.Framework"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/minikit/include/MiniKit/Platform/Window.hpp">
+			<Option target="MiniKit.Framework"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/minikit/src/Engine/Context.cpp">
+			<Option target="MiniKit.Framework"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/minikit/src/Engine/Context.hpp">
+			<Option target="MiniKit.Framework"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/minikit/src/Engine/Macos/Context.mm">
+			<Option target="MiniKit.Framework"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/minikit/src/Foundation/Error.cpp">
+			<Option target="MiniKit.Framework"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/minikit/src/Graphics/CommandBuffer.hpp">
+			<Option target="MiniKit.Framework"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/minikit/src/Graphics/Device.hpp">
+			<Option target="MiniKit.Framework"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/minikit/src/Graphics/Image.hpp">
+			<Option target="MiniKit.Framework"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/minikit/src/Graphics/Metal/CommandBuffer.hpp">
+			<Option target="MiniKit.Framework"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/minikit/src/Graphics/Metal/CommandBuffer.mm">
+			<Option target="MiniKit.Framework"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/minikit/src/Graphics/Metal/Device.hpp">
+			<Option target="MiniKit.Framework"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/minikit/src/Graphics/Metal/Device.mm">
+			<Option target="MiniKit.Framework"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/minikit/src/Graphics/Metal/Image.hpp">
+			<Option target="MiniKit.Framework"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/minikit/src/Graphics/Metal/Image.mm">
+			<Option target="MiniKit.Framework"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/minikit/src/Platform/Window.cpp">
+			<Option target="MiniKit.Framework"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/minikit/src/Platform/Window.hpp">
+			<Option target="MiniKit.Framework"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\game\"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/ImGUI/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\game\external\ImGUI\"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\game\external\SDL2\"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/SDL2.spec.in">
+			<Option virtualFolder="CMake Files\game\external\SDL2\"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\game\external\SDL2\"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/sdl2-config.in">
+			<Option virtualFolder="CMake Files\game\external\SDL2\"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/sdl2.pc.in">
+			<Option virtualFolder="CMake Files\game\external\SDL2\"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/cmake/macros.cmake">
+			<Option virtualFolder="CMake Files\game\external\SDL2\cmake\"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/cmake/sdlchecks.cmake">
+			<Option virtualFolder="CMake Files\game\external\SDL2\cmake\"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/include/SDL_config.h.cmake">
+			<Option virtualFolder="CMake Files\game\external\SDL2\include\"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/json/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\game\external\json\"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/json/cmake/config.cmake.in">
+			<Option virtualFolder="CMake Files\game\external\json\cmake\"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/json/cmake/nlohmann_jsonConfigVersion.cmake.in">
+			<Option virtualFolder="CMake Files\game\external\json\cmake\"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/json/cmake/pkg-config.pc.in">
+			<Option virtualFolder="CMake Files\game\external\json\cmake\"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\game\src\"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/minikit/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\minikit\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ImGui"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\game\;CMake Files\game\external\;CMake Files\game\external\ImGUI\;CMake Files\game\external\SDL2\;CMake Files\game\external\SDL2\cmake\;CMake Files\game\external\SDL2\include\;CMake Files\game\external\json\;CMake Files\game\external\json\cmake\;CMake Files\game\src\;CMake Files\minikit\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/ImGUI"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/ImGUI/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/ImGUI/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/ImGUI/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/ImGUI/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ImGui">
+				<Option output="/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/ImGUI/libImGui.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/ImGUI"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Work/lmspuzzle/game/external/ImGUI/."/>
+					<Add directory="/Volumes/Work/lmspuzzle/game/external/SDL2/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/ImGUI/Makefile&quot;  VERBOSE=1 ImGui"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/ImGUI/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/ImGUI/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/ImGUI/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ImGui/fast">
+				<Option output="/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/ImGUI/libImGui.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/ImGUI"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Work/lmspuzzle/game/external/ImGUI/."/>
+					<Add directory="/Volumes/Work/lmspuzzle/game/external/SDL2/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/ImGUI/Makefile&quot;  VERBOSE=1 ImGui/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/ImGUI/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/ImGUI/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Work/lmspuzzle/cmake-build-debug/game/external/ImGUI/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/ImGUI/backends/imgui_impl_metal.h">
+			<Option target="ImGui"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/ImGUI/backends/imgui_impl_metal.mm">
+			<Option target="ImGui"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/ImGUI/backends/imgui_impl_sdl.cpp">
+			<Option target="ImGui"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/ImGUI/backends/imgui_impl_sdl.h">
+			<Option target="ImGui"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/ImGUI/imgui.cpp">
+			<Option target="ImGui"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/ImGUI/imgui.h">
+			<Option target="ImGui"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/ImGUI/imgui_demo.cpp">
+			<Option target="ImGui"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/ImGUI/imgui_draw.cpp">
+			<Option target="ImGui"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/ImGUI/imgui_widgets.cpp">
+			<Option target="ImGui"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\game\"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/ImGUI/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\game\external\ImGUI\"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\game\external\SDL2\"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/SDL2.spec.in">
+			<Option virtualFolder="CMake Files\game\external\SDL2\"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\game\external\SDL2\"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/sdl2-config.in">
+			<Option virtualFolder="CMake Files\game\external\SDL2\"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/sdl2.pc.in">
+			<Option virtualFolder="CMake Files\game\external\SDL2\"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/cmake/macros.cmake">
+			<Option virtualFolder="CMake Files\game\external\SDL2\cmake\"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/cmake/sdlchecks.cmake">
+			<Option virtualFolder="CMake Files\game\external\SDL2\cmake\"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/SDL2/include/SDL_config.h.cmake">
+			<Option virtualFolder="CMake Files\game\external\SDL2\include\"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/json/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\game\external\json\"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/json/cmake/config.cmake.in">
+			<Option virtualFolder="CMake Files\game\external\json\cmake\"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/json/cmake/nlohmann_jsonConfigVersion.cmake.in">
+			<Option virtualFolder="CMake Files\game\external\json\cmake\"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/external/json/cmake/pkg-config.pc.in">
+			<Option virtualFolder="CMake Files\game\external\json\cmake\"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/game/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\game\src\"/>
+		</Unit>
+		<Unit filename="/Volumes/Work/lmspuzzle/minikit/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\minikit\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
